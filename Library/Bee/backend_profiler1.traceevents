@@ -1,0 +1,465 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693414228656364, "dur":2345, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414228658725, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693414228658828, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693414228658851, "dur":1510, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693414228660435, "dur":724, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414228661159, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230483781, "dur":303, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484085, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484135, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484139, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484182, "dur":18, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484201, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484219, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484226, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484238, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484241, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484252, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484254, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484265, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484267, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484279, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484281, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484291, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484294, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484306, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484308, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484318, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484321, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484331, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484333, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484343, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484345, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484354, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484357, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484367, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484369, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484379, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484382, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484393, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484428, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230484450, "dur":5141, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693414228660471, "dur":790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228661275, "dur":10082, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228671381, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693414228671390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228675902, "dur":1361, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693414228677269, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693414228677452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228685249, "dur":8530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693414228693787, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693414228694237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228695829, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693414228699950, "dur":56107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228756063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228756071, "dur":11927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228768047, "dur":43998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228812053, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228812067, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228814471, "dur":38667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228853198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414228853215, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414228855668, "dur":307648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229163322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414229163331, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229166160, "dur":191916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229358085, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414229358100, "dur":7161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229365348, "dur":200254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229565611, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414229565627, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229567433, "dur":309328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229876771, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414229876786, "dur":6150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414229883056, "dur":419407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414230302477, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693414230302490, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693414230305234, "dur":178714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414228661086, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414228661361, "dur":10252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414228671614, "dur":12261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693414228683886, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414228690509, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693414228696838, "dur":5063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414228701907, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414228702324, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414228705852, "dur":330718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup.exe" }}
+,{ "pid":12345, "tid":2, "ts":1693414229036576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229036583, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup.exe" }}
+,{ "pid":12345, "tid":2, "ts":1693414229040481, "dur":28400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229068886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229068895, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229070746, "dur":69470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229140226, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229140243, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229143686, "dur":42297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229186009, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229186027, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229189015, "dur":48244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229237269, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229237285, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229239556, "dur":733267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229972826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693414229972832, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693414229975661, "dur":507704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414228661547, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414228661548, "dur":10036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414228671585, "dur":213341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1693414228884931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414228885001, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1693414228886911, "dur":114534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229001448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414229001454, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229004492, "dur":60619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229065117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414229065129, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229066865, "dur":91796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229158670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414229158684, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229160645, "dur":251356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229412011, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414229412027, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229415829, "dur":556594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229972435, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693414229972457, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693414229974233, "dur":509628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414228665372, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414228665373, "dur":6298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414228671671, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693414228672529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414228733470, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693414228735811, "dur":67514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414228803329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414228803336, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414228804442, "dur":223878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229028324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414229028332, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229029796, "dur":430611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229460416, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414229460431, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229462366, "dur":487207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229949577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693414229949584, "dur":11680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693414229961372, "dur":522509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228661437, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228661438, "dur":10148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228671587, "dur":2419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1693414228674014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228690662, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1693414228695977, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1693414228696347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228696364, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1693414228701091, "dur":6409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1693414228707510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228707524, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1693414228713412, "dur":132401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228845822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228845837, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228848471, "dur":94976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228943760, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228943777, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228947442, "dur":40351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228987803, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414228987818, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414228991320, "dur":43603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414229034930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414229034941, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414229036650, "dur":186851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414229223514, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414229223535, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414229225463, "dur":799390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414230024862, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693414230024878, "dur":4407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693414230029331, "dur":453718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228661879, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228661880, "dur":9527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228671409, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1693414228672018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228728222, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1693414228733069, "dur":66802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228799875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228799950, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228801568, "dur":85549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228887123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228887157, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228888445, "dur":44646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228933095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228933103, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228934527, "dur":37212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228971760, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414228971781, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414228975557, "dur":180288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229155854, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414229155871, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229159061, "dur":71003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229230074, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414229230090, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229232895, "dur":410600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229643505, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414229643521, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414229645460, "dur":362256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414230007725, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693414230007741, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693414230010145, "dur":473164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414228662166, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414228662167, "dur":9223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414228671392, "dur":59373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1693414228730772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414228730820, "dur":16595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1693414228747478, "dur":292346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229039829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414229039837, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229042729, "dur":28201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229070934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414229070941, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229072358, "dur":395903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229468266, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414229468279, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229470193, "dur":503540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229973736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693414229973772, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693414229977470, "dur":505870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228662470, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228662471, "dur":9276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228671747, "dur":57900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693414228729653, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228729925, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693414228732196, "dur":131562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414228863765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228863776, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414228865314, "dur":86769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414228952088, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414228952102, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414228956087, "dur":69845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229025939, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414229025948, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229027822, "dur":82321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229110152, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414229110168, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229113192, "dur":340369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229453569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414229453579, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229455026, "dur":505287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229960321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693414229960336, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693414229963634, "dur":519451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228662777, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228662777, "dur":8937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228671716, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693414228672655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228733358, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693414228735726, "dur":124496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228860229, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228860238, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228862245, "dur":41900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228904156, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228904172, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228909986, "dur":87371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228997367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414228997383, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414228999390, "dur":40613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229040009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229040017, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229042913, "dur":21023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229063944, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229063964, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229065735, "dur":83835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229149584, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229149600, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229151383, "dur":87824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229239212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229239222, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229240807, "dur":610091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229850904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229850913, "dur":7495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229858504, "dur":130373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229988886, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693414229988901, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693414229991792, "dur":491266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414228663094, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414228663095, "dur":8601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414228671696, "dur":359623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693414229031324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414229031400, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693414229032971, "dur":427241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229460228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414229460251, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229462146, "dur":420951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229883102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414229883112, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229886444, "dur":61271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229947720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693414229947729, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693414229949228, "dur":534109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414228663410, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414228663411, "dur":8192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414228671603, "dur":56831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1693414228728442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414228728673, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1693414228731876, "dur":139800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414228871685, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414228871702, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414228874807, "dur":135090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229009902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229009911, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229012445, "dur":138007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229150456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229150463, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229151902, "dur":197844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229349755, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229349771, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229352224, "dur":536583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229888812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229888820, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693414229890210, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693414229890255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229890260, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693414229893345, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1693414229894026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229894039, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1693414229896062, "dur":1229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1693414229897295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229897306, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1693414229900102, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1693414229900159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229900168, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1693414229902025, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693414229902086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229902095, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693414229903466, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1693414229903533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229903539, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1693414229906392, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1693414229906893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693414229906906, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1693414229910461, "dur":573160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414228663747, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414228663748, "dur":7629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414228671382, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693414228671888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414228727413, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693414228731238, "dur":150533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693414228881780, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414228881796, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693414228883887, "dur":1152165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693414230036057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693414230036066, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693414230038995, "dur":444611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228664052, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228664053, "dur":7358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228671412, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1693414228671904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228690839, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1693414228694831, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1693414228695210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228695223, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1693414228699042, "dur":23026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228722078, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228722354, "dur":6319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228728814, "dur":68418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228797242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228797768, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228799497, "dur":92027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228891534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414228891550, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414228894892, "dur":106436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229001332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229001339, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229004366, "dur":35893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229040261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229040266, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229042730, "dur":39974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229082709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229082719, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229084396, "dur":231238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229315640, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229315665, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229318313, "dur":218471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229536794, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229536811, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229539870, "dur":344874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229884749, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229884766, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693414229886845, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1693414229886934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229886992, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1693414229889113, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1693414229889180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693414229889185, "dur":46869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1693414229936190, "dur":547292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693414228664346, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693414228664347, "dur":7024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693414228671382, "dur":1208637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1693414229880025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693414229880699, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1693414229882894, "dur":594385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693414230477287, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693414230477301, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693414230482986, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1693414230482990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228664628, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228664629, "dur":6775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228671406, "dur":29194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1693414228700607, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228701786, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1693414228706933, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1693414228707175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228707716, "dur":17577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1693414228725426, "dur":76408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228801837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228801844, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228802925, "dur":134873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228937808, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228937824, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228940601, "dur":51621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228992231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414228992239, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414228995108, "dur":38246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229033358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414229033366, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229035003, "dur":51328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229086337, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414229086347, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229088015, "dur":68003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229156028, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414229156043, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229159217, "dur":73668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229232889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414229232898, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229234760, "dur":724114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229958880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693414229958892, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693414229962736, "dur":520655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228664978, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228664979, "dur":6416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228671398, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1693414228672383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228730900, "dur":17455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1693414228748419, "dur":51700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228800122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228800127, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228801412, "dur":37426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228838847, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228838863, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228840577, "dur":88599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228929185, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414228929201, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414228932463, "dur":68794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229001287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414229001296, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229004233, "dur":57917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229062156, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414229062166, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229065303, "dur":129941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229195249, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414229195259, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229198158, "dur":393171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229591334, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414229591346, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229596783, "dur":390747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229987535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693414229987543, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JeonDaYoen/Downloads//WagleWagle_FishCakeSoup_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693414229989822, "dur":493491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693414230491782, "dur":2244, "ph":"X", "name": "ProfilerWriteOutput" }
+,
