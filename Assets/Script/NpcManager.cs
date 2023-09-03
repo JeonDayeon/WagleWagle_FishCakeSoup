@@ -90,20 +90,19 @@ public class NpcManager : MonoBehaviour
 
     public void State()
     {
-        isSickHyae = true;
 
         switch (stateName)
-        {
-            case "SickHyae":
-                isSickHyae = true;
-                Debug.Log(stateName);
-                break;
-        
+        {        
             case "Clean":
                 Debug.Log(stateName);
                 break;
         
             case "ScrupTower":
+                Debug.Log(stateName);
+                break;
+
+            case "SickHyae":
+                isSickHyae = true;
                 Debug.Log(stateName);
                 break;
         }
