@@ -12,9 +12,13 @@ public class NpcManager : MonoBehaviour
     public Sprite[] stateType;//요구사항 넣어놓은 배열
     public string stateName;//현재 요구사항 이름
 
-    public bool isSickHyae = false;
-    public bool isSelectObject = false;
-    public GameObject click_obj;
+    public bool isSickHyae = false; //식혜 줘야하는지 확인
+    public bool isSelectObject = false; //게임 진행 오브젝트를 갖고 있는지 확인
+    public GameObject click_obj;//프리팹 저장
+    
+    bool isStartState = false; //true일때 코루틴 진행
+
+    public Sprite Heart;
 
     // Start is called before the first frame update
     void Start()
@@ -28,9 +32,9 @@ public class NpcManager : MonoBehaviour
     {
         if(isSelectObject)
         {
-            GameObject obj = GameObject.Find(click_obj.name + "(Clone)");
+            GameObject obj = GameObject.Find(click_obj.name + "(Clone)"); //프리팹 찾기
             obj.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
-                Input.mousePosition.y, -Camera.main.transform.position.z));
+                Input.mousePosition.y, -Camera.main.transform.position.z)); //마우스 커서에 오브젝트가 따라다니게
         }
 
         if(Input.GetMouseButtonDown(0))
@@ -47,29 +51,27 @@ public class NpcManager : MonoBehaviour
                 {
                     case "SickHyaeMachine":
                         isSelectObject = true;
-                        GameObject Clickclone = Instantiate(click_obj);
-                        break;
-                    case "ChatImage":
-                        if (isSelectObject && isSickHyae)
+                        GameObject objt = GameObject.Find(click_obj.name + "(Clone)"); //중복생성 확인용
+                        if (objt == null)//중복생성 방지용
                         {
-                            isSelectObject = false;
-                            Destroy(GameObject.Find(click_obj.name + "(Clone)"));
-                            isSickHyae = false;
-                            StopCoroutine(NpcState());
+                            Instantiate(click_obj);
                         }
-                        //Destroy(GameObject.Find(click_obj.name+"(Clone)"));
+                        break;
+
+                    case "ChatImage":
+                        State(); //각 스테이트에 맞춰서 진행되는 함수
                         break;
                 }
-
-                //click_obj.transform.position = point;
             }
         }
+
+        if(Input.GetMouseButtonDown(1))//왼쪽 버튼으로 행동 취소
+        {
+            SelectObjDestroy();
+        }
+
     }
 
-    private void OnMouseDown()
-    {
-        Debug.Log("Dowm");
-    }
     void RandomNpcSkin()
     {
         ChatBalloon = gameObject.transform.GetChild(0).gameObject; //자신의 말풍선 가져오기
@@ -88,37 +90,55 @@ public class NpcManager : MonoBehaviour
         stateName = stateType[Randoms].name.ToString();
     }
 
+    void SelectObjDestroy()
+    {
+        isSelectObject = false;
+        Destroy(GameObject.Find(click_obj.name + "(Clone)"));
+    }
+
     public void State()
     {
 
         switch (stateName)
         {        
-            case "Clean":
-                Debug.Log(stateName);
-                break;
-        
             case "ScrupTower":
                 Debug.Log(stateName);
                 break;
 
             case "SickHyae":
-                isSickHyae = true;
                 Debug.Log(stateName);
+                if (isSelectObject) //식혜용
+                {
+                    isSickHyae = false;
+                    SelectObjDestroy();
+                    StateImage.sprite = Heart;
+                    Invoke("StopStateCorutine",0.4f); //2초뒤 말풍선 없어짐
+                }
                 break;
         }
     }
 
     IEnumerator NpcState()
     {
-        while (true)
+        Debug.Log("코루틴");
+        yield return new WaitForSeconds(1.0f);//2초 뒤 요구사항 반복문 시작
+        isStartState = true;
+
+        while (isStartState)
         {
-            Debug.Log("코루틴");
-            yield return new WaitForSeconds(2.0f); //2초 뒤 요구사항 내보내기
+            yield return new WaitForSeconds(1.0f);//2초 뒤 요구사항 반복문 시작
             RandomState(); //요구사항 가져오기
+
             ChatBalloon.SetActive(true); //말풍선 띄우기
-            State();//상태에 따라 준비하기
+
             yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
             ChatBalloon.SetActive(false);
         }
+    }
+    void StopStateCorutine()
+    {
+        isStartState = false;
+        ChatBalloon.SetActive(false);
+        StopCoroutine(NpcState());
     }
 }
