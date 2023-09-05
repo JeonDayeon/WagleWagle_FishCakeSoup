@@ -23,7 +23,7 @@ public class CleanWater : MonoBehaviour
             DirtyWater.color = new Color(DirtyWater.color.r, DirtyWater.color.g, DirtyWater.color.b, DirtyWater.color.a + 0.01f);
             yield return new WaitForSeconds(0.1f);
         }
-        
+
         if (DirtyWater.color.a >= 1.0f)
         {
             CleanChat.SetActive(true);
@@ -40,10 +40,11 @@ public class CleanWater : MonoBehaviour
 
             if (hit.collider != null)
             {
-                if (hit.transform.gameObject.name == CleanChat.name) //클린하게 만들면
+                if (hit.transform.gameObject == CleanChat) //클린하게 만들면
                 {
                     DirtyWater.color = new Color(DirtyWater.color.r, DirtyWater.color.g, DirtyWater.color.b, 0);
                     CleanChat.SetActive(false);
+                    StartCoroutine(Water());
                 }
             }
         }
