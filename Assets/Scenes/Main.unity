@@ -197,6 +197,7 @@ MonoBehaviour:
   Heart: {fileID: 21300000, guid: 1dc4c828cfc19634ab12f807f30a95ed, type: 3}
   Angry: {fileID: 21300000, guid: af1afcc9269ef7049b0239a453f03513, type: 3}
   number: 0
+  game: {fileID: 0}
 --- !u!95 &79101736
 Animator:
   serializedVersion: 4
@@ -896,7 +897,7 @@ GameObject:
   - component: {fileID: 304945342}
   - component: {fileID: 304945341}
   m_Layer: 5
-  m_Name: Life
+  m_Name: LIFE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,6 +1768,7 @@ MonoBehaviour:
   Heart: {fileID: 21300000, guid: 1dc4c828cfc19634ab12f807f30a95ed, type: 3}
   Angry: {fileID: 21300000, guid: af1afcc9269ef7049b0239a453f03513, type: 3}
   number: 0
+  game: {fileID: 0}
 --- !u!95 &624821299
 Animator:
   serializedVersion: 4
@@ -2410,6 +2412,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5513905, y: 0.5133847}
   m_EdgeRadius: 0
+--- !u!1 &986845449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986845451}
+  - component: {fileID: 986845450}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &986845450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986845449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a020f42497268e488eacf1793b06f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: {fileID: 0}
+  Lifes: []
+  DestoryLifesNum: 0
+--- !u!4 &986845451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986845449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 563.8063, y: 364.15097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990679881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +2678,7 @@ MonoBehaviour:
   Heart: {fileID: 21300000, guid: 1dc4c828cfc19634ab12f807f30a95ed, type: 3}
   Angry: {fileID: 21300000, guid: af1afcc9269ef7049b0239a453f03513, type: 3}
   number: 0
+  game: {fileID: 0}
 --- !u!95 &1021003701
 Animator:
   serializedVersion: 4
@@ -3310,6 +3360,7 @@ MonoBehaviour:
   Heart: {fileID: 21300000, guid: 1dc4c828cfc19634ab12f807f30a95ed, type: 3}
   Angry: {fileID: 21300000, guid: af1afcc9269ef7049b0239a453f03513, type: 3}
   number: 0
+  game: {fileID: 0}
 --- !u!61 &1405254486
 BoxCollider2D:
   m_ObjectHideFlags: 0

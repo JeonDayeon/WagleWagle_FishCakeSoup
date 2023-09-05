@@ -22,11 +22,14 @@ public class NpcManager : MonoBehaviour
     public Sprite Angry;
 
     public int number;
+    //-----------------------------------------------------------------Score
+    public GameManager game;
 
     // Start is called before the first frame update
     void Start()
     {
         click_obj = Resources.Load("Prefabs/NpcSendObject") as GameObject;
+        game = FindObjectOfType<GameManager>();
         RandomNpcSkin();
     }
 
@@ -95,8 +98,10 @@ public class NpcManager : MonoBehaviour
     {
         StateImage = ChatBalloon.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
         int Randoms = Random.Range(0, stateType.Length);
-        StateImage.sprite = stateType[Randoms];
-        stateName = stateType[Randoms].name.ToString();
+        //StateImage.sprite = stateType[Randoms];
+        //stateName = stateType[Randoms].name.ToString();
+        StateImage.sprite = stateType[0];
+        stateName = stateType[0].name.ToString();
     }
 
     void SelectObjDestroy()
@@ -122,6 +127,7 @@ public class NpcManager : MonoBehaviour
                     SelectObjDestroy();
                     StateImage.sprite = Heart;
                     Invoke("StopStateCorutine",1f); //2초뒤 말풍선 없어짐
+                    game.PlusScore(3);
                 }
                 break;
         }
@@ -141,9 +147,13 @@ public class NpcManager : MonoBehaviour
             ChatBalloon.SetActive(true); //말풍선 띄우기
 
             yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
-            StateImage.sprite = Angry;
-            yield return new WaitForSeconds(1f);
-            ChatBalloon.SetActive(false);
+            if(isStartState)
+            {
+                StateImage.sprite = Angry;
+                game.MinusLife();
+                yield return new WaitForSeconds(1f);
+                ChatBalloon.SetActive(false);
+            }
         }
     }
     void StopStateCorutine()

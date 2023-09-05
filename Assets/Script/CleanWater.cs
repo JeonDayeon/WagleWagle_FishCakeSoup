@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CleanWater : MonoBehaviour
 {
+    GameManager game;
     SpriteRenderer DirtyWater;
     GameObject CleanChat;
     public
     // Start is called before the first frame update
     void Start()
     {
+        game = FindObjectOfType<GameManager>();
         DirtyWater = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
         CleanChat = gameObject.transform.GetChild(1).gameObject;
         Water();
@@ -45,6 +47,7 @@ public class CleanWater : MonoBehaviour
                     DirtyWater.color = new Color(DirtyWater.color.r, DirtyWater.color.g, DirtyWater.color.b, 0);
                     CleanChat.SetActive(false);
                     StartCoroutine(Water());
+                    game.PlusScore(2);
                 }
             }
         }
