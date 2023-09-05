@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
             Lifes[DestoryLifesNum].SetActive(false);
             DestoryLifesNum -= 1;
         }
+
         if (DestoryLifesNum <= -1)
         {
             OverOrClear();
@@ -58,14 +59,15 @@ public class GameManager : MonoBehaviour
 
     public void OverOrClear()
     {
-        if (Score.text == "55"|| Score.text == "56"|| Score.text == "57"|| Score.text == "58")
+        if (int.TryParse(Score.text, out int score))
         {
-            gameClearUI.SetActive(true);
+            if (score > 50 && DestoryLifesNum >= 0)
+                gameClearUI.SetActive(true);
+            else
+                gameOverUI.SetActive(true);
         }
-        else
-        {
-            gameOverUI.SetActive(true);
-        }
+
         
+
     }
 }

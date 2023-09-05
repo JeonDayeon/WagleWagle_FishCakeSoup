@@ -323,7 +323,6 @@
 "Assets/Script/CleanWater.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/NpcManager.cs"
-"Assets/Script/OverOrClear.cs"
 "Assets/Script/QuitOrStart.cs"
 "Assets/Script/Timer.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
