@@ -7,14 +7,13 @@ public class CleanWater : MonoBehaviour
     GameManager game;
     SpriteRenderer DirtyWater;
     GameObject CleanChat;
-    public
+
     // Start is called before the first frame update
     void Start()
     {
         game = FindObjectOfType<GameManager>();
         DirtyWater = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
         CleanChat = gameObject.transform.GetChild(1).gameObject;
-        Water();
         StartCoroutine(Water());
     }
 

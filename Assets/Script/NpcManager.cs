@@ -17,17 +17,16 @@ public class NpcManager : MonoBehaviour
     public GameObject click_obj;//프리팹 저장
 
     bool isStartState = false; //true일때 코루틴 진행
-
     public Sprite Heart;
     public Sprite Angry;
-
-    public int number;
     //-----------------------------------------------------------------Score
     public GameManager game;
 
     // Start is called before the first frame update
     void Start()
     {
+        ChatBalloon = gameObject.transform.GetChild(0).gameObject; //자신의 말풍선 가져오기
+        StateImage = ChatBalloon.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
         click_obj = Resources.Load("Prefabs/NpcSendObject") as GameObject;
         game = FindObjectOfType<GameManager>();
         RandomNpcSkin();
@@ -68,11 +67,12 @@ public class NpcManager : MonoBehaviour
                         break;
 
                     case "ChatImage":
-                        if(StateImage.gameObject == clicks)
+                        if (StateImage.gameObject == clicks)
                         {
                             State(); //각 스테이트에 맞춰서 진행되는 함수
                         }
-                            break;
+                        isSelectObject = false;
+                        break;
                 }
             }
         }
@@ -86,12 +86,11 @@ public class NpcManager : MonoBehaviour
 
     void RandomNpcSkin()
     {
-        ChatBalloon = gameObject.transform.GetChild(0).gameObject; //자신의 말풍선 가져오기
-
         Animator animator = gameObject.transform.GetComponent<Animator>();//자신의 애니메이터 갖고 오기
         int Randoms = Random.Range(0, anim.Length); //랜덤 값 받기
         animator.runtimeAnimatorController = anim[Randoms]; //배열에 있는 걸로 변경
-        StartCoroutine(NpcState());//NPC 설정 완료 후 요구사항 띄우기
+        float RandomFloat = Random.Range(0f, 5f);
+        StartCoroutine(NpcState(RandomFloat));//NPC 설정 완료 후 요구사항 띄우기
     }
 
     void RandomState()
@@ -121,11 +120,11 @@ public class NpcManager : MonoBehaviour
 
             case "SickHyae":
                 Debug.Log(stateName);
-                if (isSelectObject) //식혜용
+                if (isSelectObject)
                 {
-                    isSickHyae = false;
+                    isStartState = false;
                     SelectObjDestroy();
-                    StateImage.sprite = Heart;
+                    StateImage.sprite = Heart;                                                                                                                                       
                     Invoke("StopStateCorutine",1f); //2초뒤 말풍선 없어짐
                     game.PlusScore(3);
                 }
@@ -133,10 +132,10 @@ public class NpcManager : MonoBehaviour
         }
     }
 
-    IEnumerator NpcState()
+    IEnumerator NpcState(float RandomFloat)
     {
         Debug.Log("코루틴");
-        yield return new WaitForSeconds(1.0f);//2초 뒤 요구사항 반복문 시작
+        yield return new WaitForSeconds(RandomFloat);//2초 뒤 요구사항 반복문 시작
         isStartState = true;
 
         while (isStartState)
@@ -147,8 +146,10 @@ public class NpcManager : MonoBehaviour
             ChatBalloon.SetActive(true); //말풍선 띄우기
 
             yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
-            if(isStartState)
+
+            if (isStartState)
             {
+                stateName = null;
                 StateImage.sprite = Angry;
                 game.MinusLife();
                 yield return new WaitForSeconds(1f);
@@ -158,8 +159,15 @@ public class NpcManager : MonoBehaviour
     }
     void StopStateCorutine()
     {
-        isStartState = false;
         ChatBalloon.SetActive(false);
-        StopCoroutine(NpcState());
+        StopCoroutine(NpcState(0));
+        RandomNpcSkin();
+    }
+
+    void Minus()
+    {
+        stateName = null;
+        StateImage.sprite = Angry;
+        game.MinusLife();
     }
 }

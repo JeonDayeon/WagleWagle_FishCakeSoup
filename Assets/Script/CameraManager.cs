@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     Vector2 clickPoint; // 현재 클릭한 벡터
-    float dragSpeed = 10.0f; // 카메라 이동 속도
+    float dragSpeed = 20.0f; // 카메라 이동 속도
 
     Camera MainCamera; //드래그에 쓸 카메라 컴포넌트
 
