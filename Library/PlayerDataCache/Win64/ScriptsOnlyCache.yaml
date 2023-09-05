@@ -3,12 +3,16 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraManager
     - CleanWater
+    - GameManager
     - NpcManager
+    - OverOrClear
+    - QuitOrStart
     - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -33,6 +37,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -63,7 +75,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -77,7 +91,37 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOrStart
+    methodName: GameStart
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOrStart
+    methodName: Quit
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOrStart
+    methodName: GoToMain
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOrStart
+    methodName: GoToMain
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOrStart
+    methodName: GoToMain
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -91,8 +135,6 @@ ScriptsOnlyBuild:
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
       Script: {instanceID: 0}
     - Class: 60
       Script: {instanceID: 0}
@@ -113,42 +155,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 1720}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3286}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 3482}
+      Script: {instanceID: 3502}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 4208}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 5400}
     - Class: 114
-      Script: {instanceID: 4776}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 6064}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 6808}
     - Class: 114
-      Script: {instanceID: 6044}
+      Script: {instanceID: 7012}
     - Class: 114
-      Script: {instanceID: 6788}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 6992}
+      Script: {instanceID: 7432}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 8154}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 9138}
     - Class: 114
-      Script: {instanceID: 8134}
-    - Class: 114
-      Script: {instanceID: 9118}
+      Script: {instanceID: 31418}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -172,6 +210,79 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
+    Assets/Scenes/Start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1568}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3502}
+    - Class: 114
+      Script: {instanceID: 4660}
+    - Class: 114
+      Script: {instanceID: 4796}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 6064}
+    - Class: 114
+      Script: {instanceID: 6808}
+    - Class: 114
+      Script: {instanceID: 7012}
+    - Class: 114
+      Script: {instanceID: 7074}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -191,6 +302,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitOrStart
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -565,7 +682,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 7848144a9499ca1e1b42931217981fe4
+      Hash: 72b9c84c5ede51a983a4201d8c924afa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Timer
@@ -745,7 +862,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: ce98f009b2a7ce324a7b5cbfa66f1fd2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -961,7 +1078,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: fd67d25de5bf94460e9485f702096d30
+      Hash: 2b886267ba9724a161b18aa303afac6f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NpcManager
@@ -1331,7 +1448,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OverOrClear
   platform: 19
   scenePathNames:
+  - Assets/Scenes/Start.unity
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/JeonDaYoen/Desktop/0905WagleWagleFishCakeSoup/WagleWagle_FishCakeSoup.exe
+  playerPath: "C:/Users/USER/Downloads/\uC5B4\uBB35\uD0D5/WalgleWagle_FishCakeSoup/WagleWagle_FishCakeSoup.exe"

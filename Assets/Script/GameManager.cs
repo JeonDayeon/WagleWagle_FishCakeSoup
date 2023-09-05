@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI Score;
     public GameObject[] Lifes;
 
+    public GameObject gameOverUI;
+    public GameObject gameClearUI;
+
     public int DestoryLifesNum;
 
     // Start is called before the first frame update
@@ -46,5 +49,23 @@ public class GameManager : MonoBehaviour
             Lifes[DestoryLifesNum].SetActive(false);
             DestoryLifesNum -= 1;
         }
+        if (DestoryLifesNum <= -1)
+        {
+            OverOrClear();
+        }
+    }
+
+
+    public void OverOrClear()
+    {
+        if (Score.text == "55"|| Score.text == "56"|| Score.text == "57"|| Score.text == "58")
+        {
+            gameClearUI.SetActive(true);
+        }
+        else
+        {
+            gameOverUI.SetActive(true);
+        }
+        
     }
 }
