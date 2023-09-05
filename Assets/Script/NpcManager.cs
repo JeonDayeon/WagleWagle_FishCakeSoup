@@ -15,10 +15,13 @@ public class NpcManager : MonoBehaviour
     public bool isSickHyae = false; //식혜 줘야하는지 확인
     public bool isSelectObject = false; //게임 진행 오브젝트를 갖고 있는지 확인
     public GameObject click_obj;//프리팹 저장
-    
+
     bool isStartState = false; //true일때 코루틴 진행
 
     public Sprite Heart;
+    public Sprite Angry;
+
+    public int number;
 
     // Start is called before the first frame update
     void Start()
@@ -33,8 +36,11 @@ public class NpcManager : MonoBehaviour
         if(isSelectObject)
         {
             GameObject obj = GameObject.Find(click_obj.name + "(Clone)"); //프리팹 찾기
-            obj.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
-                Input.mousePosition.y, -Camera.main.transform.position.z)); //마우스 커서에 오브젝트가 따라다니게
+            if (obj != null)
+            {
+                obj.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
+                    Input.mousePosition.y, -Camera.main.transform.position.z)); //마우스 커서에 오브젝트가 따라다니게
+            }
         }
 
         if(Input.GetMouseButtonDown(0))
@@ -59,8 +65,11 @@ public class NpcManager : MonoBehaviour
                         break;
 
                     case "ChatImage":
-                        State(); //각 스테이트에 맞춰서 진행되는 함수
-                        break;
+                        if(StateImage.gameObject == clicks)
+                        {
+                            State(); //각 스테이트에 맞춰서 진행되는 함수
+                        }
+                            break;
                 }
             }
         }
@@ -112,7 +121,7 @@ public class NpcManager : MonoBehaviour
                     isSickHyae = false;
                     SelectObjDestroy();
                     StateImage.sprite = Heart;
-                    Invoke("StopStateCorutine",0.4f); //2초뒤 말풍선 없어짐
+                    Invoke("StopStateCorutine",1f); //2초뒤 말풍선 없어짐
                 }
                 break;
         }
@@ -132,6 +141,8 @@ public class NpcManager : MonoBehaviour
             ChatBalloon.SetActive(true); //말풍선 띄우기
 
             yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
+            StateImage.sprite = Angry;
+            yield return new WaitForSeconds(1f);
             ChatBalloon.SetActive(false);
         }
     }
