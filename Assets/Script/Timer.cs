@@ -8,17 +8,14 @@ public class Timer : MonoBehaviour
 {
     // Start is called before the first frame update
     public Slider timerSlider;
-    public float gameTime = 20f;
+    public float gameTime;
 
     public GameManager game;
-
-    private bool stopTimer;
 
     void Start()
     {
         timerSlider = gameObject.transform.GetComponent<Slider>();
-        game = FindObjectOfType<GameManager>();
-        stopTimer = false;
+        game = FindObjectOfType<GameManager>(); 
         timerSlider.maxValue = gameTime;
         timerSlider.value = timerSlider.maxValue;
     }

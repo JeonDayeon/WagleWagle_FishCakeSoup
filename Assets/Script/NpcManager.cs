@@ -16,12 +16,11 @@ public class NpcManager : MonoBehaviour
     public bool isSelectObject = false; //게임 진행 오브젝트를 갖고 있는지 확인
     public GameObject click_obj;//프리팹 저장
 
-    bool isStartState = false; //true일때 코루틴 진행
+    bool isOk = false;//false면 마이너스 true면 플러스
     public Sprite Heart;
     public Sprite Angry;
     //-----------------------------------------------------------------Score
     public GameManager game;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -71,7 +70,6 @@ public class NpcManager : MonoBehaviour
                         {
                             State(); //각 스테이트에 맞춰서 진행되는 함수
                         }
-                        isSelectObject = false;
                         break;
                 }
             }
@@ -122,7 +120,7 @@ public class NpcManager : MonoBehaviour
                 Debug.Log(stateName);
                 if (isSelectObject)
                 {
-                    isStartState = false;
+                    isOk = true;
                     SelectObjDestroy();
                     StateImage.sprite = Heart;                                                                                                                                       
                     Invoke("StopStateCorutine",1f); //2초뒤 말풍선 없어짐
@@ -135,33 +133,37 @@ public class NpcManager : MonoBehaviour
     IEnumerator NpcState(float RandomFloat)
     {
         Debug.Log("코루틴");
-        yield return new WaitForSeconds(RandomFloat);//2초 뒤 요구사항 반복문 시작
-        isStartState = true;
+        
+        yield return new WaitForSeconds(RandomFloat);//랜덤 시간 뒤 시작
+        RandomState(); //요구사항 가져오기
 
-        while (isStartState)
+        ChatBalloon.SetActive(true); //말풍선 띄우기
+
+        yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
+
+        if (!isOk) //요구사항 완료가 안됐으면
         {
-            yield return new WaitForSeconds(1.0f);//2초 뒤 요구사항 반복문 시작
-            RandomState(); //요구사항 가져오기
 
-            ChatBalloon.SetActive(true); //말풍선 띄우기
+            stateName = null;
+            StateImage.sprite = Angry;
+            game.MinusLife();
 
-            yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
-
-            if (isStartState)
-            {
-                stateName = null;
-                StateImage.sprite = Angry;
-                game.MinusLife();
-                yield return new WaitForSeconds(1f);
-                ChatBalloon.SetActive(false);
-            }
+            yield return new WaitForSeconds(1f);
+            ChatBalloon.SetActive(false);
         }
+
+        else
+        {
+            isOk = false;
+        }
+        RandomNpcSkin();
+                    
     }
+
+
     void StopStateCorutine()
     {
         ChatBalloon.SetActive(false);
-        StopCoroutine(NpcState(0));
-        RandomNpcSkin();
     }
 
     void Minus()
