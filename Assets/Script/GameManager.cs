@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
     {
         if (int.TryParse(Score.text, out int score))
         {
-            if (score > 3 && DestoryLifesNum > 0)
+            if (score >= 40 && DestoryLifesNum > -1)
                 gameClearUI.SetActive(true);
             else
                 gameOverUI.SetActive(true);

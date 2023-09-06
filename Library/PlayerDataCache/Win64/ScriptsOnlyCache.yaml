@@ -13,13 +13,20 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManager
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.2D.Tilemap.Extras.Editor.dll:
+    - UnityEditor.Tilemaps.GameObjectBrush
+    - UnityEditor.Tilemaps.GroupBrush
+    - UnityEditor.Tilemaps.LineBrush
+    - UnityEditor.Tilemaps.RandomBrush
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -32,8 +39,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -85,9 +94,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: QuitOrStart
     methodName: GameStart
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: QuitOrStart
     methodName: Quit
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -154,35 +169,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3120}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3484}
+      Script: {instanceID: 3504}
     - Class: 114
-      Script: {instanceID: 4190}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 5956}
     - Class: 114
-      Script: {instanceID: 6046}
+      Script: {instanceID: 6066}
     - Class: 114
-      Script: {instanceID: 6790}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 6994}
+      Script: {instanceID: 7014}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 7076}
     - Class: 114
-      Script: {instanceID: 7414}
+      Script: {instanceID: 7434}
     - Class: 114
-      Script: {instanceID: 8136}
+      Script: {instanceID: 8156}
     - Class: 114
-      Script: {instanceID: 9120}
+      Script: {instanceID: 9140}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -237,31 +252,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3120}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3484}
+      Script: {instanceID: 3504}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 4662}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4798}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5134}
     - Class: 114
-      Script: {instanceID: 6046}
+      Script: {instanceID: 6066}
     - Class: 114
-      Script: {instanceID: 6790}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 6994}
+      Script: {instanceID: 7014}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 7076}
     - Class: 114
-      Script: {instanceID: 7414}
+      Script: {instanceID: 7434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1449,4 +1464,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/JeonDaYoen/Desktop/0906WagleWagleFishCakeSoup/WagleWagle_FishCakeSoup.exe
+  playerPath: "C:/Users/USER/Desktop/\uC640\uAE00\uC640\uAE00/WagleWagle_FishCakeSoup.exe"
