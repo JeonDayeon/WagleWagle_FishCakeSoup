@@ -11,21 +11,15 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.2D.Tilemap.Extras.Editor.dll:
-    - UnityEditor.Tilemaps.GameObjectBrush
-    - UnityEditor.Tilemaps.GroupBrush
-    - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.RandomBrush
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -103,9 +97,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: QuitOrStart
     methodName: GoToMain
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1446,4 +1449,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/Main.unity
-  playerPath: "C:/Users/USER/Downloads/\uC5B4\uBB35\uD0D5/0906WalgleWagle_FishCakeSoup/WagleWagle_FishCakeSoup.exe"
+  playerPath: C:/Users/JeonDaYoen/Desktop/0906WagleWagleFishCakeSoup/WagleWagle_FishCakeSoup.exe

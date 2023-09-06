@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     // Start is called before the first frame update
     public Slider timerSlider;
-    public float gameTime;
+    public float gameTime = 20f;
 
     public GameManager game;
 
@@ -16,25 +16,25 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
+        timerSlider = gameObject.transform.GetComponent<Slider>();
         game = FindObjectOfType<GameManager>();
         stopTimer = false;
         timerSlider.maxValue = gameTime;
-        timerSlider.value = gameTime;
+        timerSlider.value = timerSlider.maxValue;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float time = gameTime - Time.time;
-
-        if (time <= 0)
+        if(timerSlider.value > 0)
         {
-            stopTimer = true;
-            game.OverOrClear();
+            timerSlider.value -= Time.deltaTime;
         }
-        if (stopTimer == false)
+
+        if(timerSlider.value <= 0)
         {
-            timerSlider.value = time;
+            Debug.Log("³¡³µ´ç");
+            game.OverOrClear();
         }
     }
 

@@ -61,13 +61,11 @@ public class GameManager : MonoBehaviour
     {
         if (int.TryParse(Score.text, out int score))
         {
-            if (score > 50 && DestoryLifesNum >= 0)
+            if (score > 3 && DestoryLifesNum > 0)
                 gameClearUI.SetActive(true);
             else
                 gameOverUI.SetActive(true);
+            Time.timeScale = 0;
         }
-
-        
-
     }
 }

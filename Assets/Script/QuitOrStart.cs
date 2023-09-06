@@ -20,6 +20,7 @@ public class QuitOrStart : MonoBehaviour
     public void GameStart()
     {
         SceneManager.LoadScene(1, LoadSceneMode.Single);
+        Time.timeScale = 1f;
     }
 
     public void Quit()

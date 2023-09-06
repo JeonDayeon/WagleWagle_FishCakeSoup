@@ -48,9 +48,5 @@ public class CameraManager : MonoBehaviour
         {
             MainCamera.fieldOfView += distance;
         }
-        //if (distance != 0 && MainCamera.fieldOfView >= 25f || MainCamera.fieldOfView <= 100f)
-        //{
-        //    MainCamera.fieldOfView += distance;
-        //}
     }
 }
