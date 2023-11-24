@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
+
         Score = GameObject.Find("ScoreTxt").GetComponent<TextMeshProUGUI>();
 
         GameObject Life = GameObject.Find("LIFE");
@@ -61,7 +63,7 @@ public class GameManager : MonoBehaviour
     {
         if (int.TryParse(Score.text, out int score))
         {
-            if (score >= 40 && DestoryLifesNum > -1)
+            if (score >= 30 && DestoryLifesNum > -1)
                 gameClearUI.SetActive(true);
             else
                 gameOverUI.SetActive(true);

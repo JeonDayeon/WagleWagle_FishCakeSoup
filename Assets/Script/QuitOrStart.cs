@@ -32,4 +32,16 @@ public class QuitOrStart : MonoBehaviour
     {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
+
+    public void Level2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
+    }
+
+    public void Level3()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(3, LoadSceneMode.Single);
+    }
 }
