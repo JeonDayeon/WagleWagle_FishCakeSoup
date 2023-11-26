@@ -7,10 +7,11 @@ public class CleanWater : MonoBehaviour
     GameManager game;
     SpriteRenderer DirtyWater;
     GameObject CleanChat;
-
+    AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         game = FindObjectOfType<GameManager>();
         DirtyWater = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
         CleanChat = gameObject.transform.GetChild(1).gameObject;
@@ -43,6 +44,7 @@ public class CleanWater : MonoBehaviour
             {
                 if (hit.transform.gameObject == CleanChat) //클린하게 만들면
                 {
+                    audio.Play();
                     DirtyWater.color = new Color(DirtyWater.color.r, DirtyWater.color.g, DirtyWater.color.b, 0);
                     CleanChat.SetActive(false);
                     StartCoroutine(Water());

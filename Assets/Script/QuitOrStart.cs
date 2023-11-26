@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.EventSystems;
 public class QuitOrStart : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -43,5 +43,11 @@ public class QuitOrStart : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(3, LoadSceneMode.Single);
+    }
+    public void Unvisible()
+    {
+        GameObject clickBtn = EventSystem.current.currentSelectedGameObject;
+        clickBtn.transform.parent.gameObject.SetActive(false);
+        Destroy(clickBtn.transform.parent.gameObject);
     }
 }

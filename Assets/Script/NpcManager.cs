@@ -21,9 +21,17 @@ public class NpcManager : MonoBehaviour
     public Sprite Angry;
     //-----------------------------------------------------------------Score
     public GameManager game;
+
+    public AudioSource audioM;
+    public AudioClip NewState;
+    public AudioClip SickHyaeMachine;
+    public AudioClip Sucess;
+    public AudioClip Fail;
+
     // Start is called before the first frame update
     void Start()
     {
+        audioM = GameObject.Find("AudioManager").GetComponent<AudioSource>();
         ChatBalloon = gameObject.transform.GetChild(0).gameObject; //자신의 말풍선 가져오기
         StateImage = ChatBalloon.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
         click_obj = Resources.Load("Prefabs/NpcSendObject") as GameObject;
@@ -57,6 +65,8 @@ public class NpcManager : MonoBehaviour
                 switch (clicks.name)
                 {
                     case "SickHyaeMachine":
+                        audioM.clip = SickHyaeMachine;
+                        audioM.Play();
                         isSelectObject = true;
                         GameObject objt = GameObject.Find(click_obj.name + "(Clone)"); //중복생성 확인용
                         if (objt == null)//중복생성 방지용
@@ -109,7 +119,6 @@ public class NpcManager : MonoBehaviour
 
     public void State()
     {
-
         switch (stateName)
         {        
             case "ScrupTower":
@@ -120,6 +129,8 @@ public class NpcManager : MonoBehaviour
                 Debug.Log(stateName);
                 if (isSelectObject)
                 {
+                    audioM.clip = Sucess;
+                    audioM.Play();
                     isOk = true;
                     SelectObjDestroy();
                     StateImage.sprite = Heart;                                                                                                                                       
@@ -138,11 +149,14 @@ public class NpcManager : MonoBehaviour
         RandomState(); //요구사항 가져오기
 
         ChatBalloon.SetActive(true); //말풍선 띄우기
-
+        audioM.clip = NewState;
+        audioM.Play();
         yield return new WaitForSeconds(5.0f);//5초 뒤 요구사항 마감
 
         if (!isOk) //요구사항 완료가 안됐으면
         {
+            audioM.clip = Fail;
+            audioM.Play();
 
             stateName = null;
             StateImage.sprite = Angry;

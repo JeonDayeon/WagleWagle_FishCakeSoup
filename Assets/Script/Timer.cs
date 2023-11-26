@@ -23,14 +23,13 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timerSlider.value > 0)
+        if(timerSlider.value > 0 && !game.gameClearUI.activeSelf)
         {
             timerSlider.value -= Time.deltaTime;
         }
 
-        if(timerSlider.value <= 0)
+        if(timerSlider.value <= 0 && !game.gameClearUI.activeSelf)
         {
-            Debug.Log("³¡³µ´ç");
             game.OverOrClear();
         }
     }

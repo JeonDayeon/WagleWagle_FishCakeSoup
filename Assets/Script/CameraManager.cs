@@ -9,6 +9,7 @@ public class CameraManager : MonoBehaviour
 
     Camera MainCamera; //드래그에 쓸 카메라 컴포넌트
 
+    public bool isNotDrag_Zoom = false;
     private void Start()
     {
         MainCamera = gameObject.GetComponent<Camera>();
@@ -16,8 +17,11 @@ public class CameraManager : MonoBehaviour
 
     void Update()
     {
-        Drag();
-        Zoom();
+        if (!isNotDrag_Zoom)
+        {
+            Drag();
+            Zoom();
+        }
     }
 
     private void Drag()

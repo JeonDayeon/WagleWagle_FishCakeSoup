@@ -46,13 +46,13 @@ public class GameManager : MonoBehaviour
 
     public void MinusLife()
     {
-        if (DestoryLifesNum >= 0)
+        if (DestoryLifesNum >= 0 && !gameClearUI.activeSelf)
         {
             Lifes[DestoryLifesNum].SetActive(false);
             DestoryLifesNum -= 1;
         }
 
-        if (DestoryLifesNum <= -1)
+        if (DestoryLifesNum <= -1 && !gameClearUI.activeSelf)
         {
             OverOrClear();
         }
@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
     {
         if (int.TryParse(Score.text, out int score))
         {
+            Debug.Log("²ô±â");
             if (score >= 30 && DestoryLifesNum > -1)
                 gameClearUI.SetActive(true);
             else

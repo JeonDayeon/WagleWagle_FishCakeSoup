@@ -14,13 +14,15 @@ public class MaraSpawn : MonoBehaviour
     public float spawnInterval = 5f;    // 스폰 대기 시간
     public float objectLifetime = 10f;   // 오브젝트 유지 시간
 
+    public AudioSource audioSource;
+    public AudioClip clip;
     void Start()
     {
         area = GetComponent<BoxCollider2D>();
         game = FindObjectOfType<GameManager>();
-
         // 주기적으로 오브젝트를 소환하는 Coroutine 시작
         StartCoroutine(Spawn(4));
+        audioSource = GetComponent<AudioSource>();
     }
 
     private IEnumerator Spawn(float delayTime)
@@ -87,6 +89,7 @@ public class MaraSpawn : MonoBehaviour
 
                 if (MaraList.Contains(clickedObject))
                 {
+                    audioSource.Play();
                     MaraList.Remove(clickedObject);
                     Destroy(clickedObject);
                     Debug.Log("플레이어에 의해 오브젝트 파괴됨");
